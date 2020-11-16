@@ -1,5 +1,5 @@
 class GiftsMailer < ApplicationMailer
-  default from: "gifts@usevolition.com"
+  default from: "gifts@chazona.today"
 
   def gift_notification(gift)
     @gift   = gift

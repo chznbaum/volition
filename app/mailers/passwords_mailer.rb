@@ -1,5 +1,5 @@
 class PasswordsMailer < ApplicationMailer
-  default from: 'passwords@usevolition.com'
+  default from: 'passwords@chazona.today'
   def change_password(user)
     @user = user
 

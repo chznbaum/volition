@@ -1,5 +1,5 @@
 class WeeklySummaryMailer < ApplicationMailer
-  default from: "summary@usevolition.com"
+  default from: "summary@chazona.today"
 
   def weekly_summary(user)
     from = 6.days.ago

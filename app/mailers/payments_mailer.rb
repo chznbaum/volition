@@ -1,5 +1,5 @@
 class PaymentsMailer < ApplicationMailer
-  default from: 'payments@usevolition.com'
+  default from: 'payments@chazona.today'
 
   def invoice_upcoming(subscription)
     @subscription = subscription
